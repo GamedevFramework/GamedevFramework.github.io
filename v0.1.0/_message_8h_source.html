@@ -40,7 +40,6 @@
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="https://github.com/GamedevFramework/gf"><span>gf&#160;on&#160;github</span></a></li>
     </ul>
@@ -109,7 +108,7 @@
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">   */</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="structgf_1_1_message.html">   53</a></span>&#160;  <span class="keyword">struct</span> <a class="code" href="_portability_8h.html#a0169111e0ff1d9fe0f23dee89e904d57">GF_API</a> <a class="code" href="structgf_1_1_message.html">Message</a> {</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">/**</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">     * @brief The default (invalid) id</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">     * @brief The default (invalid) type</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">     *</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">     * It must be redefined in child classes.</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">     */</span></div>
@@ -138,8 +137,8 @@
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">   * sent in a message handler. It can be a free function:</span></div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">   *</span></div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">   * ~~~{.cc}</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">   * gf::MessageStatus onHeroPosition(gf::Id id, gf::Message *msg) {</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">   *   assert(id == HeroPosition::type);</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">   * gf::MessageStatus onHeroPosition(gf::Id type, gf::Message *msg) {</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">   *   assert(type == HeroPosition::type);</span></div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">   *   auto heroPosition = static_cast&lt;HeroPosition*&gt;(msg);</span></div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">   *</span></div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">   *   // do something with heroPosition-&gt;position ...</span></div>
@@ -157,8 +156,8 @@
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="comment">   *</span></div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment">   * ~~~{.cc}</span></div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">   * struct Foo {</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">   *   gf::MessageStatus onHeroPosition(gf::Id id, gf::Message *msg) {</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment">   *     assert(id == HeroPosition::type);</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">   *   gf::MessageStatus onHeroPosition(gf::Id type, gf::Message *msg) {</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment">   *     assert(type == HeroPosition::type);</span></div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="comment">   *     auto heroPosition = static_cast&lt;HeroPosition*&gt;(msg);</span></div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="comment">   *</span></div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">   *     // do something with heroPosition-&gt;position ...</span></div>
@@ -184,7 +183,7 @@
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">// GF_MESSAGE_H</span></div>
 <div class="ttc" id="group__game_html_gga3aa6a8e716c96465950e5a16aa3cc7e0a952f8d52fbca6da722e72d520acd6edd"><div class="ttname"><a href="group__game.html#gga3aa6a8e716c96465950e5a16aa3cc7e0a952f8d52fbca6da722e72d520acd6edd">gf::MessageStatus::Die</a></div></div>
-<div class="ttc" id="structgf_1_1_message_html_a77f4fd285961ddc80b93b0ee878ab3b1"><div class="ttname"><a href="structgf_1_1_message.html#a77f4fd285961ddc80b93b0ee878ab3b1">gf::Message::type</a></div><div class="ttdeci">static const Id type</div><div class="ttdoc">The default (invalid) id. </div><div class="ttdef"><b>Definition:</b> Message.h:59</div></div>
+<div class="ttc" id="structgf_1_1_message_html_a77f4fd285961ddc80b93b0ee878ab3b1"><div class="ttname"><a href="structgf_1_1_message.html#a77f4fd285961ddc80b93b0ee878ab3b1">gf::Message::type</a></div><div class="ttdeci">static const Id type</div><div class="ttdoc">The default (invalid) type. </div><div class="ttdef"><b>Definition:</b> Message.h:59</div></div>
 <div class="ttc" id="group__core_html_gaa066c26eca93e5e3501dc932dd0b64d1"><div class="ttname"><a href="group__core.html#gaa066c26eca93e5e3501dc932dd0b64d1">gf::Id</a></div><div class="ttdeci">uint64_t Id</div><div class="ttdoc">An identifier. </div><div class="ttdef"><b>Definition:</b> Id.h:38</div></div>
 <div class="ttc" id="group__game_html_gga3aa6a8e716c96465950e5a16aa3cc7e0a02bce93bff905887ad2233110bf9c49e"><div class="ttname"><a href="group__game.html#gga3aa6a8e716c96465950e5a16aa3cc7e0a02bce93bff905887ad2233110bf9c49e">gf::MessageStatus::Keep</a></div></div>
 <div class="ttc" id="namespacegf_html"><div class="ttname"><a href="namespacegf.html">gf</a></div><div class="ttdef"><b>Definition:</b> Action.h:34</div></div>
@@ -192,7 +191,7 @@
 <div class="ttc" id="structgf_1_1_message_html"><div class="ttname"><a href="structgf_1_1_message.html">gf::Message</a></div><div class="ttdoc">The base class for all messages. </div><div class="ttdef"><b>Definition:</b> Message.h:53</div></div>
 <div class="ttc" id="group__game_html_gaa8c657083195e431a4a86014c9d050b2"><div class="ttname"><a href="group__game.html#gaa8c657083195e431a4a86014c9d050b2">gf::MessageHandler</a></div><div class="ttdeci">std::function&lt; MessageStatus(Id, Message *)&gt; MessageHandler</div><div class="ttdoc">A message handler. </div><div class="ttdef"><b>Definition:</b> Message.h:121</div></div>
 <div class="ttc" id="group__core_html_ga63cc77139085fae86503ed552b1c52ee"><div class="ttname"><a href="group__core.html#ga63cc77139085fae86503ed552b1c52ee">gf::InvalidId</a></div><div class="ttdeci">constexpr Id InvalidId</div><div class="ttdoc">The invalid id (which is 0) </div><div class="ttdef"><b>Definition:</b> Id.h:44</div></div>
-<div class="ttc" id="_portability_8h_html_a0169111e0ff1d9fe0f23dee89e904d57"><div class="ttname"><a href="_portability_8h.html#a0169111e0ff1d9fe0f23dee89e904d57">GF_API</a></div><div class="ttdeci">#define GF_API</div><div class="ttdef"><b>Definition:</b> Portability.h:31</div></div>
+<div class="ttc" id="_portability_8h_html_a0169111e0ff1d9fe0f23dee89e904d57"><div class="ttname"><a href="_portability_8h.html#a0169111e0ff1d9fe0f23dee89e904d57">GF_API</a></div><div class="ttdeci">#define GF_API</div><div class="ttdef"><b>Definition:</b> Portability.h:35</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

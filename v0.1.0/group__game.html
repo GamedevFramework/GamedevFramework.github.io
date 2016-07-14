@@ -40,7 +40,6 @@
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="https://github.com/GamedevFramework/gf"><span>gf&#160;on&#160;github</span></a></li>
     </ul>
@@ -133,8 +132,8 @@ Enumerations</h2></td></tr>
 
 <p>A message handler. </p>
 <p><a class="el" href="group__game.html#gaa8c657083195e431a4a86014c9d050b2" title="A message handler. ">gf::MessageHandler</a> is a function that can be called when a message is sent in a message handler. It can be a free function:</p>
-<div class="fragment"><div class="line"><a class="code" href="group__game.html#ga3aa6a8e716c96465950e5a16aa3cc7e0">gf::MessageStatus</a> onHeroPosition(<a class="code" href="group__core.html#gaa066c26eca93e5e3501dc932dd0b64d1">gf::Id</a> <span class="keywordtype">id</span>, <a class="code" href="structgf_1_1_message.html">gf::Message</a> *msg) {</div>
-<div class="line">  assert(<span class="keywordtype">id</span> == HeroPosition::type);</div>
+<div class="fragment"><div class="line"><a class="code" href="group__game.html#ga3aa6a8e716c96465950e5a16aa3cc7e0">gf::MessageStatus</a> onHeroPosition(<a class="code" href="group__core.html#gaa066c26eca93e5e3501dc932dd0b64d1">gf::Id</a> type, <a class="code" href="structgf_1_1_message.html">gf::Message</a> *msg) {</div>
+<div class="line">  assert(type == HeroPosition::type);</div>
 <div class="line">  <span class="keyword">auto</span> heroPosition = <span class="keyword">static_cast&lt;</span>HeroPosition*<span class="keyword">&gt;</span>(msg);</div>
 <div class="line"></div>
 <div class="line">  <span class="comment">// do something with heroPosition-&gt;position ...</span></div>
@@ -147,8 +146,8 @@ Enumerations</h2></td></tr>
 <div class="line"><a class="code" href="group__game.html#gaa8c657083195e431a4a86014c9d050b2">gf::MessageHandler</a> handler = onHeroPosition;</div>
 </div><!-- fragment --><p>It can also be a member function (which is, in fact, the most probable use case).</p>
 <div class="fragment"><div class="line"><span class="keyword">struct </span>Foo {</div>
-<div class="line">  <a class="code" href="group__game.html#ga3aa6a8e716c96465950e5a16aa3cc7e0">gf::MessageStatus</a> onHeroPosition(<a class="code" href="group__core.html#gaa066c26eca93e5e3501dc932dd0b64d1">gf::Id</a> <span class="keywordtype">id</span>, <a class="code" href="structgf_1_1_message.html">gf::Message</a> *msg) {</div>
-<div class="line">    assert(<span class="keywordtype">id</span> == HeroPosition::type);</div>
+<div class="line">  <a class="code" href="group__game.html#ga3aa6a8e716c96465950e5a16aa3cc7e0">gf::MessageStatus</a> onHeroPosition(<a class="code" href="group__core.html#gaa066c26eca93e5e3501dc932dd0b64d1">gf::Id</a> type, <a class="code" href="structgf_1_1_message.html">gf::Message</a> *msg) {</div>
+<div class="line">    assert(type == HeroPosition::type);</div>
 <div class="line">    <span class="keyword">auto</span> heroPosition = <span class="keyword">static_cast&lt;</span>HeroPosition*<span class="keyword">&gt;</span>(msg);</div>
 <div class="line"></div>
 <div class="line">    <span class="comment">// do something with heroPosition-&gt;position ...</span></div>

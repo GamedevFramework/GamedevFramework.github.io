@@ -40,7 +40,6 @@
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="https://github.com/GamedevFramework/gf"><span>gf&#160;on&#160;github</span></a></li>
     </ul>
@@ -91,6 +90,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a64750c2b51b730fc9b6e9d7d02ae9c1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__window.html#gga795d7d5e2f2a4f38b16b95e0e78cb626ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgf_1_1_singleton.html#a64750c2b51b730fc9b6e9d7d02ae9c1a">operator()</a> ()</td></tr>
 <tr class="memdesc:a64750c2b51b730fc9b6e9d7d02ae9c1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the singleton.  <a href="#a64750c2b51b730fc9b6e9d7d02ae9c1a">More...</a><br /></td></tr>
 <tr class="separator:a64750c2b51b730fc9b6e9d7d02ae9c1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd1f8a08c55e9d63167c1fb36bf2528a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgf_1_1_singleton.html#abd1f8a08c55e9d63167c1fb36bf2528a">reset</a> () noexcept</td></tr>
+<tr class="memdesc:abd1f8a08c55e9d63167c1fb36bf2528a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the singleton.  <a href="#abd1f8a08c55e9d63167c1fb36bf2528a">More...</a><br /></td></tr>
+<tr class="separator:abd1f8a08c55e9d63167c1fb36bf2528a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac84b0f64d5f463d3553e8fd2d9b6aabb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgf_1_1_singleton.html#ac84b0f64d5f463d3553e8fd2d9b6aabb">isValid</a> () const noexcept</td></tr>
+<tr class="memdesc:ac84b0f64d5f463d3553e8fd2d9b6aabb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the singleton has been initialized.  <a href="#ac84b0f64d5f463d3553e8fd2d9b6aabb">More...</a><br /></td></tr>
+<tr class="separator:ac84b0f64d5f463d3553e8fd2d9b6aabb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
@@ -192,6 +197,34 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac84b0f64d5f463d3553e8fd2d9b6aabb"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classgf_1_1_singleton.html">gf::Singleton</a>&lt; <a class="el" href="group__window.html#gga795d7d5e2f2a4f38b16b95e0e78cb626ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> &gt;::isValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the singleton has been initialized. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the singleton is valid </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a64750c2b51b730fc9b6e9d7d02ae9c1a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -274,6 +307,34 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>Deleted move assignment. </p>
+
+</div>
+</div>
+<a class="anchor" id="abd1f8a08c55e9d63167c1fb36bf2528a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classgf_1_1_singleton.html">gf::Singleton</a>&lt; <a class="el" href="group__window.html#gga795d7d5e2f2a4f38b16b95e0e78cb626ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> &gt;::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reset the singleton. </p>
+<p>After a call to this function, the singleton must be accessed anymore. </p>
 
 </div>
 </div>

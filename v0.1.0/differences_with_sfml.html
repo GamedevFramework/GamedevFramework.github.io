@@ -40,7 +40,6 @@
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="https://github.com/GamedevFramework/gf"><span>gf&#160;on&#160;github</span></a></li>
     </ul>
@@ -76,7 +75,7 @@ Textures</h1>
 <h1><a class="anchor" id="sfml_inheritance"></a>
 No multiple inheritance</h1>
 <p>Multiple inheritance is bad. In gf, everything has been done to remove the various cases of multiple inheritance that exist in SFML.</p>
-<p>First, there is no NonCopyable class. C++11 provides an easy way to make a class non-copyable with deleted constructors. So every instance of NonCopyable has been replaced with deleted copy constructor and assignement.</p>
+<p>First, there is no <code>NonCopyable</code> class. C++11 provides an easy way to make a class non-copyable with deleted constructors. So every instance of NonCopyable has been replaced with deleted copy constructor and assignement.</p>
 <p>In SFML, drawable and transformable are two separate things. Yet, every transformable is a drawable. One could imagine to create a class that is transformable and not drawable but, in the library, it is not the case. So in gf, <a class="el" href="classgf_1_1_transformable.html" title="Decomposed transform defined by a position, a rotation and a scale. ">gf::Transformable</a> inherits <a class="el" href="classgf_1_1_drawable.html" title="Abstract base class for objects that can be drawn to a render window. ">gf::Drawable</a>.</p>
 <p>Finally, another case of multiple inheritance is SFML render targets. In gf, render targets have been decoupled. For example, <a class="el" href="classgf_1_1_render_window.html" title="A window that can serve as a target for 2D drawing. ">gf::RenderWindow</a> is not a <a class="el" href="classgf_1_1_window.html" title="An OS window. ">gf::Window</a> (contrary to SFML), but it uses a window at initialization.</p>
 <h1><a class="anchor" id="sfml_consistency"></a>
@@ -92,7 +91,7 @@ Others small differences</h1>
 Additional features</h1>
 <p>Gamedev Framwork provides additional features that are not present in SFML. Here are only the features related to graphics, gf also has more high-level features related to games that are not described here.</p>
 <p><a class="el" href="classgf_1_1_monitor.html" title="A monitor. ">gf::Monitor</a> is a class that represents a monitor. You can list the monitors and get their position, size and modes.</p>
-<p><a class="el" href="group__core.html#ga6788e40b762777c1081f796076116a02" title="A path in the filesystem. ">gf::Path</a> is a typedef for boost::filesystem::path. It is used everywhere a path is needed.</p>
+<p><a class="el" href="group__core.html#ga6788e40b762777c1081f796076116a02" title="A path in the filesystem. ">gf::Path</a> is a typedef for <code>boost::filesystem::path</code>. It is used everywhere a path is needed.</p>
 <p>gf provides more drawables that are useful in games: <a class="el" href="classgf_1_1_nine_patch.html" title="A nine-patch. ">gf::NinePatch</a> is a <a href="http://developer.android.com/guide/topics/graphics/2d-graphics.html#nine-patch">nine patch</a> that can be used for UI rendering. <a class="el" href="classgf_1_1_animated_sprite.html" title="An animated sprite. ">gf::AnimatedSprite</a> is a sprite with several frames that is used to render a simple graphic animation. <a class="el" href="classgf_1_1_post_processing.html" title="A post-processing drawable. ">gf::PostProcessing</a> is a class that apply a <a class="el" href="classgf_1_1_effect.html" title="A post-processing effect. ">gf::Effect</a> to a texture. <a class="el" href="classgf_1_1_star_shape.html" title="Specialized shape representing a star. ">gf::StarShape</a> is a <a class="el" href="classgf_1_1_shape.html" title="Base class for textured shapes with outline. ">gf::Shape</a> that looks like a star. <a class="el" href="classgf_1_1_tile_layer.html" title="A tile layer. ">gf::TileLayer</a> is a class to render tile maps, <a class="el" href="classgf_1_1_curve.html" title="A curve is a one dimension object. ">gf::Curve</a> is a family of curves (<a class="el" href="classgf_1_1_line.html" title="A line. ">gf::Line</a>, <a class="el" href="classgf_1_1_quadratic_bezier_curve.html" title="A quadratic Bézier curve. ">gf::QuadraticBezierCurve</a>, <a class="el" href="classgf_1_1_cubic_bezier_curve.html" title="A cubic Bézier curve. ">gf::CubicBezierCurve</a>, <a class="el" href="classgf_1_1_compound_curve.html" title="A compound curve. ">gf::CompoundCurve</a>).</p>
 <p><a class="el" href="classgf_1_1_texture_atlas.html" title="A collection of sub-texture. ">gf::TextureAtlas</a> provides a texture atlas. It is capable of loading a XML file containing the atlas.</p>
 <p><a class="el" href="classgf_1_1_sprite_batch.html" title="A sprite batch. ">gf::SpriteBatch</a> is a simple sprite batch that is able to optimize the rendering of a great quantity of sprites that share the same characteristics (e.g. same texture).</p>
@@ -103,7 +102,7 @@ Additional features</h1>
 <p>gf provides a binding to the excellent <a href="https://wiki.libsdl.org/CategoryGameController">Game Controller API of SDL</a> through the <a class="el" href="classgf_1_1_gamepad.html" title="Some gamepad related functions. ">gf::Gamepad</a> class. It loads the <a href="https://github.com/gabomdq/SDL_GameControllerDB">SDL_GameControllerDB</a> to handle most of the game controllers properly.</p>
 <h1><a class="anchor" id="sfml_missing"></a>
 Missing features</h1>
-<p>There is no Style in <a class="el" href="classgf_1_1_text.html" title="Graphical text that can be drawn to a render target. ">gf::Text</a>. This is a choice. Generally, when you need an adapted font if you want italic or bold text.</p>
+<p>There is no Style in <a class="el" href="classgf_1_1_text.html" title="Graphical text that can be drawn to a render target. ">gf::Text</a>. This is a choice. Generally, you need an adapted font if you want italic or bold text.</p>
 <p>Some part of the system module of SFML are missing. Especially the classes related to threads, <code>sf::String</code>. <code>sf::Utf</code>.</p>
 <h1><a class="anchor" id="sfml_modules"></a>
 Missing modules</h1>

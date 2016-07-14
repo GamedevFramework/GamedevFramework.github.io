@@ -40,7 +40,6 @@
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="https://github.com/GamedevFramework/gf"><span>gf&#160;on&#160;github</span></a></li>
     </ul>
@@ -79,10 +78,11 @@ Debian/Ubuntu</h2>
 Build</h1>
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;git clone https://github.com/GamedevFramework/gf.git</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;cd gf</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;mkdir build</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;cd build</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;cmake ../</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;make</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;git submodule update --init</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;mkdir build</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;cd build</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;cmake ../</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;make</div>
 </div><!-- fragment --><h1><a class="anchor" id="install"></a>
 Install</h1>
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;make install # may require root permissions</div>

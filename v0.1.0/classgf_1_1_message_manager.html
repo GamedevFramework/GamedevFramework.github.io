@@ -40,7 +40,6 @@
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="https://github.com/GamedevFramework/gf"><span>gf&#160;on&#160;github</span></a></li>
     </ul>
@@ -77,6 +76,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2ad8a3c02d8b7b26d93c43a7b21302e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgf_1_1_message_manager.html#a2ad8a3c02d8b7b26d93c43a7b21302e0">MessageManager</a> ()</td></tr>
 <tr class="memdesc:a2ad8a3c02d8b7b26d93c43a7b21302e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a2ad8a3c02d8b7b26d93c43a7b21302e0">More...</a><br /></td></tr>
 <tr class="separator:a2ad8a3c02d8b7b26d93c43a7b21302e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Registering an handler</div></td></tr>
 <tr class="memitem:a48d349a6546e304542dab9a4d73e184b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__game.html#ga611ea550f08e0d83090b21c705bff1c5">MessageHandlerId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgf_1_1_message_manager.html#a48d349a6546e304542dab9a4d73e184b">registerHandler</a> (<a class="el" href="group__core.html#gaa066c26eca93e5e3501dc932dd0b64d1">Id</a> type, <a class="el" href="group__game.html#gaa8c657083195e431a4a86014c9d050b2">MessageHandler</a> handler)</td></tr>
 <tr class="memdesc:a48d349a6546e304542dab9a4d73e184b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a message handler for a type of message.  <a href="#a48d349a6546e304542dab9a4d73e184b">More...</a><br /></td></tr>
 <tr class="separator:a48d349a6546e304542dab9a4d73e184b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -92,12 +92,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a012a264f993371610ef28002b0399b66"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__game.html#ga611ea550f08e0d83090b21c705bff1c5">MessageHandlerId</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classgf_1_1_message_manager.html#a012a264f993371610ef28002b0399b66">registerHandler</a> (<a class="el" href="group__window.html#gga795d7d5e2f2a4f38b16b95e0e78cb626ae1e1d3d40573127e9ee0480caf1283d6">R</a> T::*pm, <a class="el" href="group__window.html#gga795d7d5e2f2a4f38b16b95e0e78cb626ab9ece18c950afbfa6b0fdbfa4ff731d3">T</a> *obj)</td></tr>
 <tr class="memdesc:a012a264f993371610ef28002b0399b66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a message handler for a type of message.  <a href="#a012a264f993371610ef28002b0399b66">More...</a><br /></td></tr>
 <tr class="separator:a012a264f993371610ef28002b0399b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Removing an handler</div></td></tr>
 <tr class="memitem:a87f720ae15a83e95007d03f8880abfcf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgf_1_1_message_manager.html#a87f720ae15a83e95007d03f8880abfcf">removeHandler</a> (<a class="el" href="group__game.html#ga611ea550f08e0d83090b21c705bff1c5">MessageHandlerId</a> id)</td></tr>
 <tr class="memdesc:a87f720ae15a83e95007d03f8880abfcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a handler.  <a href="#a87f720ae15a83e95007d03f8880abfcf">More...</a><br /></td></tr>
 <tr class="separator:a87f720ae15a83e95007d03f8880abfcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec641af6b6faa4909232ea85b8dcd03e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgf_1_1_message_manager.html#aec641af6b6faa4909232ea85b8dcd03e">removeHandlers</a> (std::initializer_list&lt; <a class="el" href="group__game.html#ga611ea550f08e0d83090b21c705bff1c5">MessageHandlerId</a> &gt; ids)</td></tr>
 <tr class="memdesc:aec641af6b6faa4909232ea85b8dcd03e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a list of handlers.  <a href="#aec641af6b6faa4909232ea85b8dcd03e">More...</a><br /></td></tr>
 <tr class="separator:aec641af6b6faa4909232ea85b8dcd03e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Sending a message</div></td></tr>
 <tr class="memitem:ae054f2357236f7ef863607a21c971d5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgf_1_1_message_manager.html#ae054f2357236f7ef863607a21c971d5f">sendMessage</a> (<a class="el" href="group__core.html#gaa066c26eca93e5e3501dc932dd0b64d1">Id</a> type, <a class="el" href="structgf_1_1_message.html">Message</a> *message)</td></tr>
 <tr class="memdesc:ae054f2357236f7ef863607a21c971d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a message.  <a href="#ae054f2357236f7ef863607a21c971d5f">More...</a><br /></td></tr>
 <tr class="separator:ae054f2357236f7ef863607a21c971d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -273,7 +275,7 @@ template&lt;typename R , typename T &gt; </div>
 <div class="line">};</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">class </span>Bar {</div>
-<div class="line">  <a class="code" href="group__game.html#ga3aa6a8e716c96465950e5a16aa3cc7e0">gf::MessageStatus</a> onFoo(<a class="code" href="group__core.html#gaa066c26eca93e5e3501dc932dd0b64d1">gf::Id</a> <span class="keywordtype">id</span>, <a class="code" href="structgf_1_1_message.html">gf::Message</a> *msg) {</div>
+<div class="line">  <a class="code" href="group__game.html#ga3aa6a8e716c96465950e5a16aa3cc7e0">gf::MessageStatus</a> onFoo(<a class="code" href="group__core.html#gaa066c26eca93e5e3501dc932dd0b64d1">gf::Id</a> type, <a class="code" href="structgf_1_1_message.html">gf::Message</a> *msg) {</div>
 <div class="line">    <span class="comment">// do something useful</span></div>
 <div class="line">    <span class="keywordflow">return</span> <a class="code" href="group__game.html#gga3aa6a8e716c96465950e5a16aa3cc7e0a02bce93bff905887ad2233110bf9c49e">gf::MessageStatus::Keep</a>;</div>
 <div class="line">  }</div>
@@ -336,7 +338,7 @@ template&lt;typename E , typename R , typename T &gt; </div>
 <div class="line">};</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">class </span>Bar {</div>
-<div class="line">  <a class="code" href="group__game.html#ga3aa6a8e716c96465950e5a16aa3cc7e0">gf::MessageStatus</a> onFoo(<a class="code" href="group__core.html#gaa066c26eca93e5e3501dc932dd0b64d1">gf::Id</a> <span class="keywordtype">id</span>, <a class="code" href="structgf_1_1_message.html">gf::Message</a> *msg) {</div>
+<div class="line">  <a class="code" href="group__game.html#ga3aa6a8e716c96465950e5a16aa3cc7e0">gf::MessageStatus</a> onFoo(<a class="code" href="group__core.html#gaa066c26eca93e5e3501dc932dd0b64d1">gf::Id</a> type, <a class="code" href="structgf_1_1_message.html">gf::Message</a> *msg) {</div>
 <div class="line">    <span class="comment">// do something useful</span></div>
 <div class="line">    <span class="keywordflow">return</span> <a class="code" href="group__game.html#gga3aa6a8e716c96465950e5a16aa3cc7e0a02bce93bff905887ad2233110bf9c49e">gf::MessageStatus::Keep</a>;</div>
 <div class="line">  }</div>

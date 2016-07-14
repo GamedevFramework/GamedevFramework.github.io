@@ -40,7 +40,6 @@
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="https://github.com/GamedevFramework/gf"><span>gf&#160;on&#160;github</span></a></li>
     </ul>
@@ -67,14 +66,16 @@
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classgf_1_1_font.html#a7b9b4f1dd4a253ad2192ce5a9e0410d1">Font</a>()</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classgf_1_1_font.html#a54c0359feed0a9b792a353748f6bae66">Font</a>(const Font &amp;)=delete</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classgf_1_1_font.html#a186516dbdc747416794171727157a610">getGlyph</a>(char32_t codepoint, unsigned characterSize, float outlineThickness=0.0f)</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classgf_1_1_font.html#a54c35887ca8c87ac43943989c7ab020d">getKerning</a>(char32_t left, char32_t right, unsigned characterSize)</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classgf_1_1_font.html#a86e11e6a4635bba5a29fd3e7b4b82610">getLineSpacing</a>(unsigned characterSize)</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classgf_1_1_font.html#aba8f1cace3451ca4c329197e4c000ddd">getTexture</a>(unsigned characterSize)</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classgf_1_1_font.html#aa7d23688c81a7c31a5667547e1072501">loadFromFile</a>(const Path &amp;filename)</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classgf_1_1_font.html#a675e48a8570c4f6c0a0f6bfffee211f3">loadFromMemory</a>(const uint8_t *data, std::size_t length)</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classgf_1_1_font.html#a68c7af74cf22c1ef3152775bced39c0b">loadFromStream</a>(InputStream &amp;stream)</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classgf_1_1_font.html#a7d5c0e10caf7cc254ec6b441eb8d7acc">operator=</a>(const Font &amp;)=delete</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classgf_1_1_font.html#a4eb63bb477ba0fe81a332c96c7d463d3">Font</a>(Font &amp;&amp;other)</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classgf_1_1_font.html#a186516dbdc747416794171727157a610">getGlyph</a>(char32_t codepoint, unsigned characterSize, float outlineThickness=0.0f)</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classgf_1_1_font.html#a54c35887ca8c87ac43943989c7ab020d">getKerning</a>(char32_t left, char32_t right, unsigned characterSize)</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classgf_1_1_font.html#a86e11e6a4635bba5a29fd3e7b4b82610">getLineSpacing</a>(unsigned characterSize)</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classgf_1_1_font.html#aba8f1cace3451ca4c329197e4c000ddd">getTexture</a>(unsigned characterSize)</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classgf_1_1_font.html#aa7d23688c81a7c31a5667547e1072501">loadFromFile</a>(const Path &amp;filename)</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classgf_1_1_font.html#a675e48a8570c4f6c0a0f6bfffee211f3">loadFromMemory</a>(const uint8_t *data, std::size_t length)</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classgf_1_1_font.html#a68c7af74cf22c1ef3152775bced39c0b">loadFromStream</a>(InputStream &amp;stream)</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classgf_1_1_font.html#a7d5c0e10caf7cc254ec6b441eb8d7acc">operator=</a>(const Font &amp;)=delete</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classgf_1_1_font.html#ad3f632b85ce1094e7f09be1ea5e13cb4">operator=</a>(Font &amp;&amp;other)</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classgf_1_1_font.html#ac1bde1f928a9b1b6b875c92d0fbfd108">~Font</a>()</td><td class="entry"><a class="el" href="classgf_1_1_font.html">gf::Font</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->

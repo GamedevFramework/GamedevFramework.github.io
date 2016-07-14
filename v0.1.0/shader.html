@@ -40,7 +40,6 @@
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="https://github.com/GamedevFramework/gf"><span>gf&#160;on&#160;github</span></a></li>
     </ul>
@@ -66,7 +65,7 @@ Introduction</h1>
 <p>This is a quick and dirty introduction to modern OpenGL rendering pipeline. If you already know everything then you can go to the next section.</p>
 <p>In modern OpenGL, the rendering pipeline is programmable. Not everything is programmable but the most important parts. You have to use a special language called <a href="https://en.wikipedia.org/wiki/OpenGL_Shading_Language">GLSL</a> (OpenGL Shading Language) and make programs called shaders.</p>
 <p>The data you send to shaders is prepared in the main program and is called vertices. Vertices represent the geometry of what you have to draw. A vertex is a kind of super point: it contains the coordinates of the object but also the texture coordinates of the point, sometimes (in 3D) the normal of the surface at that point, and many more possible things.</p>
-<p>All the vertices are sent to the graphics cards that pass them to the <em>vertex shader</em> which is responsible of transforming the coordinates of the vertex from the game world (2D or 3D) to the screen. After this first pass, the vertices goes in the rasterize which computes the color of each pixel. Then, the pixels goes through a <em>fragment shader</em> which can compute the final color of the pixel and sometimes other attributes.</p>
+<p>All the vertices are sent to the graphics card that passes them to the <em>vertex shader</em> which is responsible of transforming the coordinates of the vertex from the game world (2D or 3D) to the screen. After this first pass, the vertices go in the rasterizer which computes the color of each pixel. Then, the pixels go through a <em>fragment shader</em> which can compute the final color of the pixel and sometimes other attributes.</p>
 <p>And that's it, basically!</p>
 <dl class="section see"><dt>See also</dt><dd><a href="https://www.opengl.org/wiki/Rendering_Pipeline_Overview">Rendering pipeline overview - OpenGL.org</a></dd></dl>
 <h1><a class="anchor" id="shader_default"></a>

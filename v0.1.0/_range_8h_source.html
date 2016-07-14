@@ -40,7 +40,6 @@
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="https://github.com/GamedevFramework/gf"><span>gf&#160;on&#160;github</span></a></li>
     </ul>
@@ -96,7 +95,7 @@
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">   *</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">   */</span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="structgf_1_1_range.html">   42</a></span>&#160;  <span class="keyword">struct</span> <a class="code" href="_portability_8h.html#a0169111e0ff1d9fe0f23dee89e904d57">GF_API</a> <a class="code" href="structgf_1_1_range.html">Range</a> {</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="structgf_1_1_range.html">   42</a></span>&#160;  <span class="keyword">struct</span> <a class="code" href="structgf_1_1_range.html">Range</a> {</div>
 <div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="structgf_1_1_range.html#afcf0587de6aa377e6d87876c6a93eb7b">   43</a></span>&#160;    T <a class="code" href="structgf_1_1_range.html#afcf0587de6aa377e6d87876c6a93eb7b">lo</a>; <span class="comment">///&lt; The lower endpoint (included)</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="structgf_1_1_range.html#acf814c011a89d0e8f6bc6dbd7debbd4f">   44</a></span>&#160;    T <a class="code" href="structgf_1_1_range.html#acf814c011a89d0e8f6bc6dbd7debbd4f">hi</a>; <span class="comment">///&lt; The higher endpoint (excluded)</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
@@ -243,17 +242,20 @@
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="comment">   */</span></div>
 <div class="line"><a name="l00187"></a><span class="lineno"><a class="line" href="group__core.html#ga15fdd0f4f13b40dc0767c317b3dcea0e">  187</a></span>&#160;  <span class="keyword">typedef</span> <a class="code" href="structgf_1_1_range.html">Range</a>&lt;std::size_t&gt; <a class="code" href="group__core.html#ga15fdd0f4f13b40dc0767c317b3dcea0e">RangeZ</a>;</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  <span class="keyword">extern</span> <span class="keyword">template</span> <span class="keyword">struct</span> <a class="code" href="structgf_1_1_range.html">Range</a>&lt;<span class="keywordtype">float</span>&gt;;</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  <span class="keyword">extern</span> <span class="keyword">template</span> <span class="keyword">struct</span> <a class="code" href="structgf_1_1_range.html">Range</a>&lt;<span class="keywordtype">int</span>&gt;;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  <span class="keyword">extern</span> <span class="keyword">template</span> <span class="keyword">struct</span> <a class="code" href="structgf_1_1_range.html">Range</a>&lt;<span class="keywordtype">unsigned</span>&gt;;</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;  <span class="keyword">extern</span> <span class="keyword">template</span> <span class="keyword">struct</span> <a class="code" href="structgf_1_1_range.html">Range</a>&lt;std::size_t&gt;;</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">DOXYGEN_SHOULD_SKIP_THIS</span></div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;}</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span></div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;}</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">// GF_RANGE_H</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="comment">// MSVC does not like extern template</span></div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">_MSC_VER</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  <span class="keyword">extern</span> <span class="keyword">template</span> <span class="keyword">struct</span> <a class="code" href="structgf_1_1_range.html">Range</a>&lt;<span class="keywordtype">float</span>&gt;;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;  <span class="keyword">extern</span> <span class="keyword">template</span> <span class="keyword">struct</span> <a class="code" href="structgf_1_1_range.html">Range</a>&lt;<span class="keywordtype">int</span>&gt;;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;  <span class="keyword">extern</span> <span class="keyword">template</span> <span class="keyword">struct</span> <a class="code" href="structgf_1_1_range.html">Range</a>&lt;<span class="keywordtype">unsigned</span>&gt;;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;  <span class="keyword">extern</span> <span class="keyword">template</span> <span class="keyword">struct</span> <a class="code" href="structgf_1_1_range.html">Range</a>&lt;std::size_t&gt;;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span></div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">ifndef</span> <span class="preprocessor">DOXYGEN_SHOULD_SKIP_THIS</span></div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;}</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span></div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;}</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;<span class="preprocessor">#</span><span class="preprocessor">endif</span> <span class="comment">// GF_RANGE_H</span></div>
 <div class="ttc" id="structgf_1_1_range_1_1_iterator_html"><div class="ttname"><a href="structgf_1_1_range_1_1_iterator.html">gf::Range::Iterator</a></div><div class="ttdoc">A range iterator. </div><div class="ttdef"><b>Definition:</b> Range.h:50</div></div>
 <div class="ttc" id="structgf_1_1_range_1_1_iterator_html_ad824744be4b7092f99835b014e21d386"><div class="ttname"><a href="structgf_1_1_range_1_1_iterator.html#ad824744be4b7092f99835b014e21d386">gf::Range::Iterator::Iterator</a></div><div class="ttdeci">constexpr Iterator(T iteratorIndex) noexcept</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> Range.h:58</div></div>
 <div class="ttc" id="structgf_1_1_range_html"><div class="ttname"><a href="structgf_1_1_range.html">gf::Range</a></div><div class="ttdoc">A half-open range of values. </div><div class="ttdef"><b>Definition:</b> Range.h:42</div></div>
@@ -272,7 +274,6 @@
 <div class="ttc" id="group__core_html_ga15fdd0f4f13b40dc0767c317b3dcea0e"><div class="ttname"><a href="group__core.html#ga15fdd0f4f13b40dc0767c317b3dcea0e">gf::RangeZ</a></div><div class="ttdeci">Range&lt; std::size_t &gt; RangeZ</div><div class="ttdoc">A std::size_t range. </div><div class="ttdef"><b>Definition:</b> Range.h:187</div></div>
 <div class="ttc" id="group__core_html_gaa17198b7704df6f481bcc7d4e2f16f30"><div class="ttname"><a href="group__core.html#gaa17198b7704df6f481bcc7d4e2f16f30">gf::RangeI</a></div><div class="ttdeci">Range&lt; int &gt; RangeI</div><div class="ttdoc">A int range. </div><div class="ttdef"><b>Definition:</b> Range.h:175</div></div>
 <div class="ttc" id="structgf_1_1_range_1_1_iterator_html_ae98e48c0875896a57fa70ccbecb745d5"><div class="ttname"><a href="structgf_1_1_range_1_1_iterator.html#ae98e48c0875896a57fa70ccbecb745d5">gf::Range::Iterator::index</a></div><div class="ttdeci">T index</div><div class="ttdoc">The index in the range. </div><div class="ttdef"><b>Definition:</b> Range.h:51</div></div>
-<div class="ttc" id="_portability_8h_html_a0169111e0ff1d9fe0f23dee89e904d57"><div class="ttname"><a href="_portability_8h.html#a0169111e0ff1d9fe0f23dee89e904d57">GF_API</a></div><div class="ttdeci">#define GF_API</div><div class="ttdef"><b>Definition:</b> Portability.h:31</div></div>
 <div class="ttc" id="structgf_1_1_range_html_ad878f909f1ccd2ea561a36c7836da50a"><div class="ttname"><a href="structgf_1_1_range.html#ad878f909f1ccd2ea561a36c7836da50a">gf::Range::length</a></div><div class="ttdeci">constexpr T length() const noexcept</div><div class="ttdoc">Get the length of the range. </div><div class="ttdef"><b>Definition:</b> Range.h:139</div></div>
 <div class="ttc" id="structgf_1_1_range_1_1_iterator_html_a4459872c42b659b657424c78f8a8060a"><div class="ttname"><a href="structgf_1_1_range_1_1_iterator.html#a4459872c42b659b657424c78f8a8060a">gf::Range::Iterator::operator++</a></div><div class="ttdeci">Iterator &amp; operator++() noexcept</div><div class="ttdoc">Increment operator. </div><div class="ttdef"><b>Definition:</b> Range.h:78</div></div>
 <div class="ttc" id="structgf_1_1_range_html_ad7a1d88f30b7d09c3232eef71deff937"><div class="ttname"><a href="structgf_1_1_range.html#ad7a1d88f30b7d09c3232eef71deff937">gf::Range::isValid</a></div><div class="ttdeci">constexpr bool isValid() const noexcept</div><div class="ttdoc">Check is the range is valid. </div><div class="ttdef"><b>Definition:</b> Range.h:159</div></div>
