@@ -1,0 +1,4 @@
+<map id="gf::ChoiceSpriteWidget" name="gf::ChoiceSpriteWidget">
+<area shape="rect" id="node2" href="$classgf_1_1_sprite_widget.html" title="A widget with a set of sprites. " alt="" coords="26,80,142,107"/>
+<area shape="rect" id="node3" href="$classgf_1_1_widget.html" title="The widgets abstract class. " alt="" coords="43,5,125,32"/>
+</map>

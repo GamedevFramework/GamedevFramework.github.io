@@ -1,0 +1,7 @@
+<map id="gf::Widget" name="gf::Widget">
+<area shape="rect" id="node2" href="$classgf_1_1_sprite_widget.html" title="A widget with a set of sprites. " alt="" coords="46,80,162,107"/>
+<area shape="rect" id="node4" href="$classgf_1_1_text_widget.html" title="A simple text widget. " alt="" coords="195,80,303,107"/>
+<area shape="rect" id="node3" href="$classgf_1_1_choice_sprite_widget.html" title="A choice sprite widget. " alt="" coords="5,155,163,181"/>
+<area shape="rect" id="node5" href="$classgf_1_1_text_shape_widget.html" title="A text within a representative shape widget. " alt="" coords="187,155,333,181"/>
+<area shape="rect" id="node6" href="$classgf_1_1_text_button_widget.html" title="A text within a rounded rectangle widget. " alt="" coords="187,229,333,256"/>
+</map>

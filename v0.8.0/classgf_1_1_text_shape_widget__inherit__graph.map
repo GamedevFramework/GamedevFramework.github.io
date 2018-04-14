@@ -1,0 +1,5 @@
+<map id="gf::TextShapeWidget" name="gf::TextShapeWidget">
+<area shape="rect" id="node4" href="$classgf_1_1_text_button_widget.html" title="A text within a rounded rectangle widget. " alt="" coords="5,229,152,256"/>
+<area shape="rect" id="node2" href="$classgf_1_1_text_widget.html" title="A simple text widget. " alt="" coords="25,80,133,107"/>
+<area shape="rect" id="node3" href="$classgf_1_1_widget.html" title="The widgets abstract class. " alt="" coords="37,5,120,32"/>
+</map>
