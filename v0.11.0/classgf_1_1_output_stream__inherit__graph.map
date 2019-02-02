@@ -1,0 +1,5 @@
+<map id="gf::OutputStream" name="gf::OutputStream">
+<area shape="rect" id="node2" href="$classgf_1_1_compressed_output_stream.html" title="Compressed output stream. " alt="" coords="5,80,201,107"/>
+<area shape="rect" id="node3" href="$classgf_1_1_file_output_stream.html" title="File based output stream. " alt="" coords="225,80,368,107"/>
+<area shape="rect" id="node4" href="$classgf_1_1_memory_output_stream.html" title="Memory based output stream. " alt="" coords="392,80,561,107"/>
+</map>
