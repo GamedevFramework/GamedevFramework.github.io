@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classgf_1_1_activity.html" title="A game activity. " alt="" coords="5,233,91,260"/>
+<area shape="rect" id="node2" href="$classgf_1_1_callback_activity.html" title="An activity for calling a function once. " alt="" coords="170,5,306,32"/>
+<area shape="rect" id="node3" href="$classgf_1_1_color_activity.html" title="An activity for a change of color. " alt="" coords="180,56,296,83"/>
+<area shape="rect" id="node4" href="$classgf_1_1_delay_activity.html" title="An activity to wait for a predefined duration. " alt="" coords="179,107,297,133"/>
+<area shape="rect" id="node5" href="$classgf_1_1_move_to_activity.html" title="An activity for a change of position. " alt="" coords="172,157,304,184"/>
+<area shape="rect" id="node6" href="$classgf_1_1_parallel_activity.html" title="An activity to run several activities in parallel. " alt="" coords="174,208,302,235"/>
+<area shape="rect" id="node7" href="$classgf_1_1_repeat_activity.html" title="An activity to run an activity several times. " alt="" coords="175,259,301,285"/>
+<area shape="rect" id="node8" href="$classgf_1_1_repeated_sequence_activity.html" title="A repeated sequence activity. " alt="" coords="139,309,337,336"/>
+<area shape="rect" id="node9" href="$classgf_1_1_rotate_to_activity.html" title="An activity for a change of angle. " alt="" coords="169,360,307,387"/>
+<area shape="rect" id="node10" href="$classgf_1_1_sequence_activity.html" title="An activity to run several activities sequentially. " alt="" coords="167,411,309,437"/>
+<area shape="rect" id="node11" href="$classgf_1_1_value_activity.html" title="An activity for a simple float value. " alt="" coords="179,461,297,488"/>
+</map>
