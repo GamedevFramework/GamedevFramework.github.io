@@ -1,0 +1,15 @@
+<map id="gf::Activity" name="gf::Activity">
+<area shape="rect" id="node2" href="$classgf_1_1activity_1_1_any_activity.html" title="An activity that can hold any other activity. " alt="" coords="156,5,315,32"/>
+<area shape="rect" id="node3" href="$classgf_1_1activity_1_1_parallel_activity_ex.html" title="A gf::ParallelActivity that holds its activities. " alt="" coords="146,57,325,98"/>
+<area shape="rect" id="node4" href="$classgf_1_1activity_1_1_repeat_activity_ex.html" title="A gf::RepeatActivity that holds its activity. " alt="" coords="147,122,324,163"/>
+<area shape="rect" id="node5" href="$classgf_1_1activity_1_1_sequence_activity_ex.html" title="A gf::SequenceActivity that holds its activities. " alt="" coords="139,187,332,229"/>
+<area shape="rect" id="node6" href="$classgf_1_1_callback_activity.html" title="An activity for calling a function once. " alt="" coords="167,253,303,280"/>
+<area shape="rect" id="node7" href="$classgf_1_1_color_activity.html" title="An activity for a change of color. " alt="" coords="177,304,293,331"/>
+<area shape="rect" id="node8" href="$classgf_1_1_delay_activity.html" title="An activity to wait for a predefined duration. " alt="" coords="176,355,295,381"/>
+<area shape="rect" id="node9" href="$classgf_1_1_move_to_activity.html" title="An activity for a change of position. " alt="" coords="169,405,301,432"/>
+<area shape="rect" id="node10" href="$classgf_1_1_parallel_activity.html" title="An activity to run several activities in parallel. " alt="" coords="171,456,299,483"/>
+<area shape="rect" id="node11" href="$classgf_1_1_repeat_activity.html" title="An activity to run an activity several times. " alt="" coords="172,507,299,533"/>
+<area shape="rect" id="node12" href="$classgf_1_1_rotate_to_activity.html" title="An activity for a change of angle. " alt="" coords="166,557,305,584"/>
+<area shape="rect" id="node13" href="$classgf_1_1_sequence_activity.html" title="An activity to run several activities sequentially. " alt="" coords="164,608,307,635"/>
+<area shape="rect" id="node14" href="$classgf_1_1_value_activity.html" title="An activity for a simple float value. " alt="" coords="176,659,295,685"/>
+</map>
