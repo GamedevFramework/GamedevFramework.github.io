@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classgf_1_1_output_stream.html" title="Abstract class for custom file output streams. " alt="" coords="5,81,128,108"/>
+<area shape="rect" id="node2" href="$classgf_1_1_buffer_output_stream.html" title="Buffer output stream. " alt="" coords="195,5,353,32"/>
+<area shape="rect" id="node3" href="$classgf_1_1_compressed_output_stream.html" title="Compressed output stream. " alt="" coords="176,56,372,83"/>
+<area shape="rect" id="node4" href="$classgf_1_1_file_output_stream.html" title="File based output stream. " alt="" coords="203,107,345,133"/>
+<area shape="rect" id="node5" href="$classgf_1_1_memory_output_stream.html" title="Memory based output stream. " alt="" coords="189,157,359,184"/>
+</map>
