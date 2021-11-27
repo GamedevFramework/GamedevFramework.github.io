@@ -1,0 +1,16 @@
+<map id="gf::Activity" name="gf::Activity">
+<area shape="rect" id="node1" title="A game activity." alt="" coords="5,309,97,336"/>
+<area shape="rect" id="node2" href="$classgf_1_1_callback_activity.html" title="An activity for calling a function once." alt="" coords="177,5,325,32"/>
+<area shape="rect" id="node3" href="$classgf_1_1_color_activity.html" title="An activity for a change of color." alt="" coords="187,56,314,83"/>
+<area shape="rect" id="node4" href="$classgf_1_1_delay_activity.html" title="An activity to wait for a predefined duration." alt="" coords="185,107,316,133"/>
+<area shape="rect" id="node5" href="$classgf_1_1_move_to_activity.html" title="An activity for a change of position." alt="" coords="179,157,322,184"/>
+<area shape="rect" id="node6" href="$classgf_1_1_parallel_activity.html" title="An activity to run several activities in parallel." alt="" coords="180,208,321,235"/>
+<area shape="rect" id="node7" href="$classgf_1_1_repeat_activity.html" title="An activity to run an activity several times." alt="" coords="181,259,320,285"/>
+<area shape="rect" id="node8" href="$classgf_1_1_rotate_to_activity.html" title="An activity for a change of angle." alt="" coords="176,309,325,336"/>
+<area shape="rect" id="node9" href="$classgf_1_1_sequence_activity.html" title="An activity to run several activities sequentially." alt="" coords="173,360,328,387"/>
+<area shape="rect" id="node10" href="$classgf_1_1_value_activity.html" title="An activity for a simple float value." alt="" coords="186,411,315,437"/>
+<area shape="rect" id="node11" href="$classgf_1_1activity_1_1_any_activity.html" title="An activity that can hold any other activity." alt="" coords="164,461,337,488"/>
+<area shape="rect" id="node12" href="$classgf_1_1activity_1_1_parallel_activity_ex.html" title="A gf::ParallelActivity that holds its activities." alt="" coords="152,513,349,554"/>
+<area shape="rect" id="node13" href="$classgf_1_1activity_1_1_repeat_activity_ex.html" title="A gf::RepeatActivity that holds its activity." alt="" coords="153,578,348,619"/>
+<area shape="rect" id="node14" href="$classgf_1_1activity_1_1_sequence_activity_ex.html" title="A gf::SequenceActivity that holds its activities." alt="" coords="145,643,356,685"/>
+</map>

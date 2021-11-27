@@ -1,0 +1,4 @@
+<map id="gf::AlphaTexture" name="gf::AlphaTexture">
+<area shape="rect" id="node1" title="A texture with a single alpha channel." alt="" coords="5,80,132,107"/>
+<area shape="rect" id="node2" href="$classgf_1_1_bare_texture.html" title="An image that lives in the graphic memory that can be used for drawing." alt="" coords="9,5,129,32"/>
+</map>

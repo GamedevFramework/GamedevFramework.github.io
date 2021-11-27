@@ -1,0 +1,4 @@
+<map id="gf::TmxTileLayer" name="gf::TmxTileLayer">
+<area shape="rect" id="node1" title="A layer with tiles in cells." alt="" coords="5,80,136,107"/>
+<area shape="rect" id="node2" href="$structgf_1_1_tmx_layer.html" title="A layer in the whole map." alt="" coords="17,5,124,32"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$structgf_1_1_tmx_object.html" title="A geometrical object." alt="" coords="5,157,119,184"/>
+<area shape="rect" id="node2" href="$structgf_1_1_tmx_ellipse.html" title="An ellipse object." alt="" coords="177,5,292,32"/>
+<area shape="rect" id="node3" href="$structgf_1_1_tmx_point.html" title="A point object." alt="" coords="183,56,287,83"/>
+<area shape="rect" id="node4" href="$structgf_1_1_tmx_polygon.html" title="A polygon object." alt="" coords="173,107,296,133"/>
+<area shape="rect" id="node5" href="$structgf_1_1_tmx_polyline.html" title="A polyline object." alt="" coords="173,157,296,184"/>
+<area shape="rect" id="node6" href="$structgf_1_1_tmx_rectangle.html" title="A rectangle object." alt="" coords="167,208,303,235"/>
+<area shape="rect" id="node7" href="$structgf_1_1_tmx_text.html" title="A text object." alt="" coords="185,259,284,285"/>
+<area shape="rect" id="node8" href="$structgf_1_1_tmx_tile_object.html" title="An image put in the map identified by its global id." alt="" coords="167,309,303,336"/>
+</map>

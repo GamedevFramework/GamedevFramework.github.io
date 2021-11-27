@@ -1,0 +1,7 @@
+<map id="gf::Socket" name="gf::Socket">
+<area shape="rect" id="node1" title="A network socket." alt="" coords="155,80,240,107"/>
+<area shape="rect" id="node3" href="$classgf_1_1_tcp_listener.html" title="A TCP listener." alt="" coords="5,155,120,181"/>
+<area shape="rect" id="node4" href="$classgf_1_1_tcp_socket.html" title="A TCP socket." alt="" coords="144,155,251,181"/>
+<area shape="rect" id="node5" href="$classgf_1_1_udp_socket.html" title="A UDP socket." alt="" coords="275,155,386,181"/>
+<area shape="rect" id="node2" href="$classgf_1_1_socket_guard.html" title="A guard to handle library initialization." alt="" coords="135,5,259,32"/>
+</map>

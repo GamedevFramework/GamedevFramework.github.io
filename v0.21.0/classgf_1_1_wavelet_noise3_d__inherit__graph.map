@@ -1,0 +1,4 @@
+<map id="gf::WaveletNoise3D" name="gf::WaveletNoise3D">
+<area shape="rect" id="node1" title="Wavelet 3D noise." alt="" coords="5,80,156,107"/>
+<area shape="rect" id="node2" href="$classgf_1_1_noise3_d.html" title="3D A noise function" alt="" coords="32,5,129,32"/>
+</map>

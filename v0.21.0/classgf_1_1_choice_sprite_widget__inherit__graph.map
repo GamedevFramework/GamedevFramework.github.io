@@ -1,0 +1,6 @@
+<map id="gf::ChoiceSpriteWidget" name="gf::ChoiceSpriteWidget">
+<area shape="rect" id="node1" title="A choice sprite widget." alt="" coords="5,229,176,256"/>
+<area shape="rect" id="node2" href="$classgf_1_1_widget.html" title="The widgets abstract class." alt="" coords="47,155,135,181"/>
+<area shape="rect" id="node3" href="$classgf_1_1_transformable.html" title="Decomposed transform defined by a position, a rotation and a scale." alt="" coords="23,80,159,107"/>
+<area shape="rect" id="node4" href="$classgf_1_1_drawable.html" title="Abstract base class for objects that can be drawn to a render window." alt="" coords="39,5,143,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="gf::KonamiGamepadControl" name="gf::KonamiGamepadControl">
+<area shape="rect" id="node1" title="The Konami code control for gamepad." alt="" coords="5,80,207,107"/>
+<area shape="rect" id="node2" href="$classgf_1_1_control.html" title="A physical control." alt="" coords="61,5,151,32"/>
+</map>
