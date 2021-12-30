@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classgf_1_1_span.html" title="A span." alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node1" href="$classgf_1_1_socket_guard.html" title="A guard to handle library initialization." alt="" coords="5,81,129,108"/>
+<area shape="rect" id="node2" href="$classgf_1_1_socket.html" title="A network socket." alt="" coords="204,56,289,83"/>
+<area shape="rect" id="node6" href="$classgf_1_1_socket_selector.html" title="A socket selector." alt="" coords="177,107,316,133"/>
+<area shape="rect" id="node3" href="$classgf_1_1_tcp_listener.html" title="A TCP listener." alt="" coords="364,5,479,32"/>
+<area shape="rect" id="node4" href="$classgf_1_1_tcp_socket.html" title="A TCP socket." alt="" coords="368,56,475,83"/>
+<area shape="rect" id="node5" href="$classgf_1_1_udp_socket.html" title="A UDP socket." alt="" coords="366,107,477,133"/>
 </map>
