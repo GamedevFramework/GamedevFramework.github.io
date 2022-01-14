@@ -1,0 +1,6 @@
+<map id="gf::Cells" name="gf::Cells">
+<area shape="rect" id="node1" title="The properties of cells." alt="" coords="209,5,284,32"/>
+<area shape="rect" id="node2" href="$classgf_1_1_hexagonal_cells.html" title="Hexagonal cells." alt="" coords="5,80,149,107"/>
+<area shape="rect" id="node3" href="$classgf_1_1_orthogonal_cells.html" title="Orthogonal cells." alt="" coords="173,80,320,107"/>
+<area shape="rect" id="node4" href="$classgf_1_1_staggered_cells.html" title="Staggered cells." alt="" coords="345,80,485,107"/>
+</map>

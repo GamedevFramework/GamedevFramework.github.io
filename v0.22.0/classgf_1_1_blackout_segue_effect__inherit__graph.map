@@ -1,0 +1,5 @@
+<map id="gf::BlackoutSegueEffect" name="gf::BlackoutSegueEffect">
+<area shape="rect" id="node1" title="A fade to black segue effect." alt="" coords="5,155,181,181"/>
+<area shape="rect" id="node2" href="$classgf_1_1_segue_effect.html" title="A segue effect." alt="" coords="33,80,153,107"/>
+<area shape="rect" id="node3" href="$classgf_1_1_shader.html" title="An OpenGL vertex and/or fragment shader." alt="" coords="50,5,137,32"/>
+</map>

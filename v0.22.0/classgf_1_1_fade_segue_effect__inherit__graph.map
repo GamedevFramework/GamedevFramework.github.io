@@ -1,0 +1,5 @@
+<map id="gf::FadeSegueEffect" name="gf::FadeSegueEffect">
+<area shape="rect" id="node1" title="A fade segue effect." alt="" coords="5,155,156,181"/>
+<area shape="rect" id="node2" href="$classgf_1_1_segue_effect.html" title="A segue effect." alt="" coords="21,80,141,107"/>
+<area shape="rect" id="node3" href="$classgf_1_1_shader.html" title="An OpenGL vertex and/or fragment shader." alt="" coords="37,5,124,32"/>
+</map>

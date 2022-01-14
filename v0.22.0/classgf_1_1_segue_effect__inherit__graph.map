@@ -1,0 +1,13 @@
+<map id="gf::SegueEffect" name="gf::SegueEffect">
+<area shape="rect" id="node1" title="A segue effect." alt="" coords="140,208,260,235"/>
+<area shape="rect" id="node3" href="$classgf_1_1_blackout_segue_effect.html" title="A fade to black segue effect." alt="" coords="325,5,501,32"/>
+<area shape="rect" id="node4" href="$classgf_1_1_checkerboard_segue_effect.html" title="A checkerboard segue effect." alt="" coords="308,56,517,83"/>
+<area shape="rect" id="node5" href="$classgf_1_1_circle_segue_effect.html" title="A circle segue effect." alt="" coords="334,107,491,133"/>
+<area shape="rect" id="node6" href="$classgf_1_1_fade_segue_effect.html" title="A fade segue effect." alt="" coords="337,157,488,184"/>
+<area shape="rect" id="node7" href="$classgf_1_1_glitch_segue_effect.html" title="A glitch segue effect." alt="" coords="333,208,492,235"/>
+<area shape="rect" id="node8" href="$classgf_1_1_pixelate_segue_effect.html" title="A pixelate segue effect." alt="" coords="326,259,499,285"/>
+<area shape="rect" id="node9" href="$classgf_1_1_radial_segue_effect.html" title="A radial segue effect." alt="" coords="332,309,493,336"/>
+<area shape="rect" id="node10" href="$classgf_1_1_slide_segue_effect.html" title="A slide segue effect." alt="" coords="337,360,489,387"/>
+<area shape="rect" id="node11" href="$classgf_1_1_zoom_blur_segue_effect.html" title="A zoom blur segue effect." alt="" coords="321,411,505,437"/>
+<area shape="rect" id="node2" href="$classgf_1_1_shader.html" title="An OpenGL vertex and/or fragment shader." alt="" coords="5,208,92,235"/>
+</map>

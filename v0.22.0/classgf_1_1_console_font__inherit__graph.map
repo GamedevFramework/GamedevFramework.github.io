@@ -1,0 +1,5 @@
+<map id="gf::ConsoleFont" name="gf::ConsoleFont">
+<area shape="rect" id="node1" title="A console font." alt="" coords="126,5,249,32"/>
+<area shape="rect" id="node2" href="$classgf_1_1_bitmap_console_font.html" title="A bitmap console font." alt="" coords="5,80,175,107"/>
+<area shape="rect" id="node3" href="$classgf_1_1_colored_console_font.html" title="A colored console font." alt="" coords="199,80,371,107"/>
+</map>

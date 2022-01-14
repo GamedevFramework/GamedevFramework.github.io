@@ -1,0 +1,6 @@
+<map id="gf::LightPointEmission" name="gf::LightPointEmission">
+<area shape="rect" id="node1" title="Light point emission." alt="" coords="5,229,172,256"/>
+<area shape="rect" id="node2" href="$classgf_1_1_sprite.html" title="A drawable representation of a texture, with its own transformations, color, etc." alt="" coords="49,155,129,181"/>
+<area shape="rect" id="node3" href="$classgf_1_1_transformable.html" title="Decomposed transform defined by a position, a rotation and a scale." alt="" coords="21,80,157,107"/>
+<area shape="rect" id="node4" href="$classgf_1_1_drawable.html" title="Abstract base class for objects that can be drawn to a render window." alt="" coords="37,5,141,32"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="gf::Shape" name="gf::Shape">
+<area shape="rect" id="node1" title="Base class for textured shapes with outline." alt="" coords="341,132,424,159"/>
+<area shape="rect" id="node4" href="$classgf_1_1_circle_shape.html" title="Specialized shape representing a circle." alt="" coords="515,5,633,32"/>
+<area shape="rect" id="node5" href="$classgf_1_1_convex_shape.html" title="Specialized shape representing a convex polygon." alt="" coords="509,56,639,83"/>
+<area shape="rect" id="node6" href="$classgf_1_1_pie.html" title=" " alt="" coords="543,107,605,133"/>
+<area shape="rect" id="node7" href="$classgf_1_1_rectangle_shape.html" title="Specialized shape representing a rectangle." alt="" coords="501,157,647,184"/>
+<area shape="rect" id="node8" href="$classgf_1_1_rounded_rectangle_shape.html" title="Specialized shape representing a rounded rectangle." alt="" coords="472,208,676,235"/>
+<area shape="rect" id="node9" href="$classgf_1_1_star_shape.html" title="Specialized shape representing a star." alt="" coords="520,259,628,285"/>
+<area shape="rect" id="node2" href="$classgf_1_1_transformable.html" title="Decomposed transform defined by a position, a rotation and a scale." alt="" coords="157,132,293,159"/>
+<area shape="rect" id="node3" href="$classgf_1_1_drawable.html" title="Abstract base class for objects that can be drawn to a render window." alt="" coords="5,132,109,159"/>
+</map>

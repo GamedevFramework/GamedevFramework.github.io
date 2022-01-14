@@ -1,0 +1,4 @@
+<map id="gf::RenderWindow" name="gf::RenderWindow">
+<area shape="rect" id="node1" title="A window that can serve as a target for 2D drawing." alt="" coords="5,80,145,107"/>
+<area shape="rect" id="node2" href="$classgf_1_1_render_target.html" title="Base class for all render targets (window, texture, ...)" alt="" coords="11,5,139,32"/>
+</map>

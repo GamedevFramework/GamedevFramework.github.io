@@ -1,0 +1,4 @@
+<map id="gf::TmxText" name="gf::TmxText">
+<area shape="rect" id="node1" title="A text object." alt="" coords="13,80,111,107"/>
+<area shape="rect" id="node2" href="$structgf_1_1_tmx_object.html" title="A geometrical object." alt="" coords="5,5,119,32"/>
+</map>

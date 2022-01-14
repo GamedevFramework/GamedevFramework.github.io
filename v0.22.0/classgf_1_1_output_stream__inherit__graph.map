@@ -1,0 +1,7 @@
+<map id="gf::OutputStream" name="gf::OutputStream">
+<area shape="rect" id="node1" title="Abstract class for custom file output streams." alt="" coords="5,81,139,108"/>
+<area shape="rect" id="node2" href="$classgf_1_1_buffer_output_stream.html" title="Buffer output stream." alt="" coords="207,5,381,32"/>
+<area shape="rect" id="node3" href="$classgf_1_1_compressed_output_stream.html" title="Compressed output stream." alt="" coords="187,56,401,83"/>
+<area shape="rect" id="node4" href="$classgf_1_1_file_output_stream.html" title="File based output stream." alt="" coords="217,107,371,133"/>
+<area shape="rect" id="node5" href="$classgf_1_1_memory_output_stream.html" title="Memory based output stream." alt="" coords="201,157,387,184"/>
+</map>

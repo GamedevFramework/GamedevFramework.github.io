@@ -1,0 +1,4 @@
+<map id="gf::TmxRectangle" name="gf::TmxRectangle">
+<area shape="rect" id="node1" title="A rectangle object." alt="" coords="5,80,141,107"/>
+<area shape="rect" id="node2" href="$structgf_1_1_tmx_object.html" title="A geometrical object." alt="" coords="17,5,130,32"/>
+</map>

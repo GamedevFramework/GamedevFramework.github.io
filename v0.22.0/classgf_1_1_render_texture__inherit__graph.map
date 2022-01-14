@@ -1,0 +1,4 @@
+<map id="gf::RenderTexture" name="gf::RenderTexture">
+<area shape="rect" id="node1" title="Target for off&#45;screen 2D rendering into a texture." alt="" coords="5,80,141,107"/>
+<area shape="rect" id="node2" href="$classgf_1_1_render_target.html" title="Base class for all render targets (window, texture, ...)" alt="" coords="9,5,137,32"/>
+</map>
