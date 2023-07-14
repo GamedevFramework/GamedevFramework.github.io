@@ -1,0 +1,5 @@
+<map id="gf::ZoomBlurSegueEffect" name="gf::ZoomBlurSegueEffect">
+<area shape="rect" id="node1" title="A zoom blur segue effect." alt="" coords="5,155,189,181"/>
+<area shape="rect" id="node2" href="$classgf_1_1_segue_effect.html" title="A segue effect." alt="" coords="37,80,157,107"/>
+<area shape="rect" id="node3" href="$classgf_1_1_shader.html" title="An OpenGL vertex and/or fragment shader." alt="" coords="54,5,141,32"/>
+</map>

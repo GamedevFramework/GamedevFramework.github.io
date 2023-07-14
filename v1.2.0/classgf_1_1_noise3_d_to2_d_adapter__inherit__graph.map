@@ -1,0 +1,4 @@
+<map id="gf::Noise3DTo2DAdapter" name="gf::Noise3DTo2DAdapter">
+<area shape="rect" id="node1" title="An adapter that make a 2D noise from a 3D noise." alt="" coords="5,80,185,107"/>
+<area shape="rect" id="node2" href="$classgf_1_1_noise2_d.html" title="2D A noise function" alt="" coords="47,5,144,32"/>
+</map>

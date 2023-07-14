@@ -1,0 +1,5 @@
+<map id="gf::RadialSegueEffect" name="gf::RadialSegueEffect">
+<area shape="rect" id="node1" title="A radial segue effect." alt="" coords="5,155,167,181"/>
+<area shape="rect" id="node2" href="$classgf_1_1_segue_effect.html" title="A segue effect." alt="" coords="26,80,146,107"/>
+<area shape="rect" id="node3" href="$classgf_1_1_shader.html" title="An OpenGL vertex and/or fragment shader." alt="" coords="43,5,129,32"/>
+</map>

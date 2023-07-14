@@ -1,0 +1,4 @@
+<map id="gf::SceneManager" name="gf::SceneManager">
+<area shape="rect" id="node1" title="A scene manager." alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node2" href="$structgf_1_1_game_manager.html" title="A game manager." alt="" coords="5,80,144,107"/>
+</map>

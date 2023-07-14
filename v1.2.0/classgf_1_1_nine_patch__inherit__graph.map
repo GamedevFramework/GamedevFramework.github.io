@@ -1,0 +1,5 @@
+<map id="gf::NinePatch" name="gf::NinePatch">
+<area shape="rect" id="node1" title="A nine&#45;patch." alt="" coords="19,155,127,181"/>
+<area shape="rect" id="node2" href="$classgf_1_1_transformable.html" title="Decomposed transform defined by a position, a rotation and a scale." alt="" coords="5,80,141,107"/>
+<area shape="rect" id="node3" href="$classgf_1_1_drawable.html" title="Abstract base class for objects that can be drawn to a render window." alt="" coords="21,5,125,32"/>
+</map>

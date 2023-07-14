@@ -1,0 +1,4 @@
+<map id="gf::TmxPolyline" name="gf::TmxPolyline">
+<area shape="rect" id="node1" title="A polyline object." alt="" coords="5,80,128,107"/>
+<area shape="rect" id="node2" href="$structgf_1_1_tmx_object.html" title="A geometrical object." alt="" coords="10,5,123,32"/>
+</map>

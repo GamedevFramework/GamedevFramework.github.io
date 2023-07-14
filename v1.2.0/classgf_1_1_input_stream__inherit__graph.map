@@ -1,0 +1,7 @@
+<map id="gf::InputStream" name="gf::InputStream">
+<area shape="rect" id="node1" title="Abstract class for custom file input streams." alt="" coords="5,81,128,108"/>
+<area shape="rect" id="node2" href="$classgf_1_1_buffer_input_stream.html" title="Buffer input stream." alt="" coords="196,5,359,32"/>
+<area shape="rect" id="node3" href="$classgf_1_1_compressed_input_stream.html" title="Compressed input stream." alt="" coords="176,56,379,83"/>
+<area shape="rect" id="node4" href="$classgf_1_1_file_input_stream.html" title="File based input stream." alt="" coords="205,107,349,133"/>
+<area shape="rect" id="node5" href="$classgf_1_1_memory_input_stream.html" title="Memory based input stream." alt="" coords="189,157,365,184"/>
+</map>
